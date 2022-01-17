@@ -1,0 +1,109 @@
+####################
+## Start of Fonts ##
+####################
+font:
+  normal:
+    family: monospace
+    style: Regular
+
+  bold:
+    family: monospace
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  bold_italic:
+    family: monospace
+    style: Bold Italic
+
+  size: 10
+#################
+## End of Fonts##
+#################
+
+############################
+## Start of Color Schemes ##
+############################
+schemes:
+  # Doom One
+  DoomOne: &DoomOne
+    primary:
+      background: '#282c34'
+      foreground: '#bbc2cf'
+    cursor:
+      text: CellBackground
+      cursor: '#528bff'
+    selection:
+      text: CellForeground
+      background: '#3e4451'
+    normal:
+      black:   '#1c1f24'
+      red:     '#ff6c6b'
+      green:   '#98be65'
+      yellow:  '#da8548'
+      blue:    '#51afef'
+      magenta: '#c678dd'
+      cyan:    '#5699af'
+      white:   '#202328'
+    bright:
+      black:   '#5b6268'
+      red:     '#da8548'
+      green:   '#4db5bd'
+      yellow:  '#ecbe7b'
+      blue:    '#3071db'   # This is 2257a0 in Doom Emacs but I lightened it.
+      magenta: '#a9a1e1'
+      cyan:    '#46d9ff'
+      white:   '#dfdfdf'
+  # Nord
+  Nord: &Nord
+   primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+   normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+   bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
+  # idleToes
+  idleToes: &idleToes
+    primary:
+      background: '#323232'
+      foreground: '#ffffff'
+    normal:
+      black: '#323232'
+      blue: '#4099ff'
+      cyan: '#bed6ff'
+      green: '#7fe173'
+      magenta: '#f680ff'
+      red: '#d25252'
+      white: '#eeeeec'
+      yellow: '#ffc66d'
+    bright:
+      black: '#535353'
+      blue: '#5eb7f7'
+      cyan: '#dcf4ff'
+      green: '#9dff91'
+      magenta: '#ff9dff'
+      red: '#f07070'
+      white: '#ffffff'
+      yellow: '#ffe48b'
+colors: *idleToes
+
+###########################
+## End of Color Schemes ##
+##########################
